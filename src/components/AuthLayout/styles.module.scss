@@ -1,0 +1,26 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+
+  > * {
+    flex: 1;
+  }
+
+  aside {
+    background-color: rgba(85, 34, 158, 0.63);
+  }
+
+  main {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+}

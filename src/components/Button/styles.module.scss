@@ -1,0 +1,22 @@
+.button {
+  width: auto;
+  height: 56px;
+  background-color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding-inline: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: lighten(#55229EFF, 15%);
+  }
+
+  &:active {
+    background-color: darken(#55229EFF, 15%);
+  }
+}
